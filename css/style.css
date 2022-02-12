@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/background.jpg");
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-principal{
+    background-color: rgba(143, 138, 138, 0.404);
+    margin: auto;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bloco-principal-titulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    margin: auto;
+    width: 70%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+
+.bloco-principal-botao{
+    margin: auto;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.bloco-principal-botao:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+p{
+    padding-left: 5%;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+}
+
+img{
+    transform: translate(-30%, 25%);
+}
